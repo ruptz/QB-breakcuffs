@@ -1,5 +1,7 @@
 qb-core event minigame for criminals when they get cuffed and able to break out of them.
 
+Thank you https://github.com/varaxium for the code
+
 Find event in qb-policejob
 =
 ```
