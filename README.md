@@ -1,5 +1,6 @@
 **QB-CORE** minigame for criminals when they get cuffed and are able to break out of them.
 This works with PS-UI, If you need to change the mini game I will explain that at the bottom of the readme
+If you want to change mini game I will not help further than what I posted below to help you change it.
 
 **Thank you _https://github.com/varaxium_ for the code**
 
@@ -10,8 +11,6 @@ https://github.com/Project-Sloth/ps-ui
 https://github.com/qbcore-framework/qb-core
 
 https://github.com/qbcore-framework/qb-policejob
-
-If you want to change mini game I will not help further than what I posted below to help you change it.
 
 Find event in qb-policejob > Client > Interactions
 =
