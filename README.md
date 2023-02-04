@@ -5,7 +5,6 @@ In qb-policejob find the event "RegisterNetEvent('police:client:GetCuffed', func
 Replace
 =
 ```
-
 RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
     local lastStand = QBCore.Functions.GetPlayerData().metadata["inlaststand"]
     local deadBozo = QBCore.Functions.GetPlayerData().metadata["isdead"]
