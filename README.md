@@ -2,10 +2,7 @@ Break cuff minigame for criminals when getting cuffed. This is for ps-ui and wor
 
 In qb-policejob find the event "RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)"
 
-REPLACE WITH THE CODE BELOW
-=
-
-``RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
+RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
     local lastStand = QBCore.Functions.GetPlayerData().metadata["inlaststand"]
     local deadBozo = QBCore.Functions.GetPlayerData().metadata["isdead"]
     local ped = PlayerPedId()
@@ -49,7 +46,9 @@ REPLACE WITH THE CODE BELOW
         TriggerServerEvent("InteractSound_SV:PlayOnSource", "Uncuff", 0.2)
         QBCore.Functions.Notify(Lang:t("success.uncuffed"),"success")
     end
-end)``
+end)
+
+
 
 MINIGAME
 =
