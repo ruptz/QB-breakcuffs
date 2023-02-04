@@ -79,7 +79,8 @@ and
 ```
 end, 1, 5) -- NumberOfCircles, MS
 ```
-You will need to change your
+What to change 
+=
 ```
 exports['ps-ui']:Circle(function(success)
 ```
