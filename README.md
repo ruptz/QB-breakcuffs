@@ -62,4 +62,4 @@ If you want to change the speed and amount of circles you want change this line
         end, 1, 5) -- NumberOfCircles, MS
 
 
-```1,``` being how many circles and ```5,``` being how fast the minigame is.
+```1,``` being how many circles and ```5,``` being how fast the circle minigame spins around.
