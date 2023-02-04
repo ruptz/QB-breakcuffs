@@ -69,7 +69,7 @@ end, 1, 5) -- NumberOfCircles, MS
 
 ```1,``` being how many circles and ```5,``` being how fast the circle minigame spins around.
 
-The export for the minigame
+Change the minigame
 =
 ```
 exports['ps-ui']:Circle(function(success)
