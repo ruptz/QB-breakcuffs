@@ -64,21 +64,25 @@ MINIGAME
 =
 
 If you want to change the speed and amount of circles you want change the ```1,``` and the ```5,``` on line 404
+```
+end, 1, 5) -- NumberOfCircles, MS
 
-
-        end, 1, 5) -- NumberOfCircles, MS
-
+```
 
 ```1,``` being how many circles and ```5,``` being how fast the circle minigame spins around.
 
 Change mini game
 =
 Find in the code I posted 
+```
+local success = exports['ps-ui']:Circle(function(success)
 
-        local success = exports['ps-ui']:Circle(function(success)
+```
 and
-        end, 1, 5) -- NumberOfCircles, MS
+```
+end, 1, 5) -- NumberOfCircles, MS
 
+```
 You will need to change your
 ```
 exports['ps-ui']:Circle(function(success)
