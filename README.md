@@ -97,7 +97,7 @@ What this does is grabs the local time and local cirlces for this mini game and 
 
 What to delete / change
 =
-You will need to change and deleet 2 things
+You will need to change and delet 2 things
 
 **Delete this code below**
 ```
