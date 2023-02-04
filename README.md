@@ -99,7 +99,6 @@ and delete the
 end, 1, 5) -- NumberOfCircles, MS
 
 ```
-
 Since this is ps-ui
 
 This code should now work with the minigame "qb-lock"
