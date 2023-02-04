@@ -93,7 +93,7 @@ local time = 7
 local circles = 1
 exports['CircleMinigame']:StartLockPickCircle(circles, seconds, success)
 ```
-What this does is grabs the local time and local cirlces for this mini game and uses it in the ```circles``` and ```seconds``` for the export
+What this does is grabs the local time and local cirlces for this mini game and uses it in the ```circles``` and ```seconds``` for the export, so the minigame would be 7 seconnds long and there would only be 1 circle you would have to do
 
 What to delete / change
 =
