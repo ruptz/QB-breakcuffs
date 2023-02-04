@@ -49,7 +49,7 @@ Replace
         TriggerServerEvent("InteractSound_SV:PlayOnSource", "Uncuff", 0.2)
         QBCore.Functions.Notify(Lang:t("success.uncuffed"),"success")
     end
-end)```--
+end)```
 
 MINIGAME
 =
