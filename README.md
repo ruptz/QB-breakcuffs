@@ -1,6 +1,6 @@
 Break cuff minigame for criminals when getting cuffed. This is for ps-ui and works for soft and hard cuff 
 
-In qb-policejob find the event "RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)"
+In qb-policejob find the event ```RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)```
 
 Replace event with
 =
