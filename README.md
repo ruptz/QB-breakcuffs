@@ -93,7 +93,7 @@ You will need to change and delete 2 things
 ```
 end, 1, 5) -- NumberOfCircles, MS
 ```
-**You may need to change some of the code as well, Find 4 lines of code that I put ```--May need to change this to true or false``` and if you are having issues of not being able to break out of the cuffs or the cuff system uis backwards to where you fail the mini game and get uncuffed but if you succsessfully do it and you get cuffed then mess around with those 4 lines of code**
+**You may need to change some of the code as well, Find 4 lines of code that I put ```--May need to change this to true or false``` If you are having issues of not being able to break out of the cuffs or the cuffing system is backwards to where you fail the mini game and get uncuffed but if you succsessfully do it and you get cuffed then mess around with those 4 lines of code**
 
 This code should now work with the minigame "CircleMinigame"
 
