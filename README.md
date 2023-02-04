@@ -9,7 +9,7 @@ https://github.com/Project-Sloth/ps-ui
 
 If you want to change mini game I will not help further than what I posted below to help you change it.
 
-Find event in qb-policejob
+Find event in qb-policejob > Client > Interactions
 =
 ```
 RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
