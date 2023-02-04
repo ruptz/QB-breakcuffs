@@ -56,7 +56,7 @@ end)
 MINIGAME
 =
 
-If you want to change the speed and amount of circles you want change this line
+If you want to change the speed and amount of circles you want change the ```1,``` and the ```5,``` on line 404
 
 
         end, 1, 5) -- NumberOfCircles, MS
