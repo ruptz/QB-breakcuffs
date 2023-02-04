@@ -101,7 +101,7 @@ end, 1, 5) -- NumberOfCircles, MS
 ```
 **You may need to change some of the code as well, Find 4 lines of code that I put ```--May need to change this to true or false``` If you are having issues of not being able to break out of the cuffs or the cuffing system is backwards to where you fail the mini game and get uncuffed but if you succsessfully do it and you get cuffed then mess around with those 4 lines of code**
 
-The mini game used for teh change is https://github.com/trclassic92/CircleMinigame
+The mini game used for the change is https://github.com/trclassic92/CircleMinigame
 
 What should your code look like now
 =
