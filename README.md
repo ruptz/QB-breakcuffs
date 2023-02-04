@@ -89,18 +89,17 @@ to the mini game export you want to use
 example
 = 
 ```
-                local time = 7
-                local circles = 1
-                local success = exports['qb-lock']:StartLockPickCircle(circles, time, success)
+local time = 7
+local circles = 1
+local success = exports['qb-lock']:StartLockPickCircle(circles, time, success)
 ```
 and delete the 
 
-        end, 1, 5) -- NumberOfCircles, MS
+```
+end, 1, 5) -- NumberOfCircles, MS
+
+```
 
 Since this is ps-ui
 
-This should now work with the minigame "qb-lock"
-
-
-
-
+This code should now work with the minigame "qb-lock"
