@@ -3,7 +3,7 @@ This works with PS-UI, If you need to change the mini game I will explain that a
 
 **Thank you _https://github.com/varaxium_ for the code**
 
-dependencies
+Dependencies
 =
 https://github.com/Project-Sloth/ps-ui
 
