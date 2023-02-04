@@ -76,7 +76,7 @@ exports['ps-ui']:Circle(function(success)
 ```
 This is the export that ps-ui uses for the Circle mini game, to change this find the mini game you want to use and copy there snippet into this line
 
-example
+Example
 = 
 ```
 local time = 7
