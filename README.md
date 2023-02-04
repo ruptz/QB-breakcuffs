@@ -4,7 +4,7 @@ In qb-policejob find the event "RegisterNetEvent('police:client:GetCuffed', func
 
 Replace
 =
-Replace the code with this below
+
 
 RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
     local lastStand = QBCore.Functions.GetPlayerData().metadata["inlaststand"]
