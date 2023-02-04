@@ -1,4 +1,4 @@
-Break cuff minigame for criminals when getting cuffed. This is for ps-ui and works for soft and hard cuff 
+<b>QB-core<b/> minigame for criminals when they get cuffed and able to break out of them.
 
 In qb-policejob find the event ```RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)```
 
