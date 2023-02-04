@@ -1,9 +1,9 @@
 qb-core event minigame for criminals when they get cuffed and able to break out of them.
 
-In qb-policejob find the event 
+Find event in qb policejob
+=
 ```
 RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
-
 ```
 
 Replace event with
