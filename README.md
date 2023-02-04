@@ -6,7 +6,9 @@ This works with PS-UI, If you need to change the mini game I will explain that a
 Dependencies
 =
 https://github.com/Project-Sloth/ps-ui
+
 https://github.com/qbcore-framework/qb-core
+
 https://github.com/qbcore-framework/qb-policejob
 
 If you want to change mini game I will not help further than what I posted below to help you change it.
