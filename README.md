@@ -84,7 +84,7 @@ What to change
 ```
 exports['ps-ui']:Circle(function(success)
 ```
-to the mini game export you want to use
+This is the export that ps-ui uses for the Circle min game, to change this find the mini game you want to use and copt there snippet into this line
 
 example
 = 
@@ -93,11 +93,9 @@ local time = 7
 local circles = 1
 local success = exports['qb-lock']:StartLockPickCircle(circles, time, success)
 ```
-and delete the 
-
+delete the line below as this is for ps-ui
 ```
 end, 1, 5) -- NumberOfCircles, MS
 ```
-Since this is ps-ui
 
 This code should now work with the minigame "qb-lock"
