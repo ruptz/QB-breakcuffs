@@ -79,7 +79,7 @@ and
 ```
 end, 1, 5) -- NumberOfCircles, MS
 ```
-What to change 
+The export for the minigame
 =
 ```
 exports['ps-ui']:Circle(function(success)
