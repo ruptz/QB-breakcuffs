@@ -51,9 +51,8 @@ RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
     end
 end)
 
-========
 MINIGAME
-========
+=
 
 If you want to change the speed and amount of circles you want change this line
 
