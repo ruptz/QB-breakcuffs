@@ -67,6 +67,13 @@ RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
     end
 end)
 ```
+Changes
+=
+You might have to change the line 
+
+        if not deadBozo and not lastStand then
+
+depending on what ambulance script you use
 
 Minigame
 =
