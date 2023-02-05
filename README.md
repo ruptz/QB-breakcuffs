@@ -73,7 +73,7 @@ You might have to change the line
 
         if not deadBozo and not lastStand then
 
-depending on what ambulance script you use
+depending on what scripts you use for when players die
 
 Minigame
 =
