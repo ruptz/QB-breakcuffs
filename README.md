@@ -70,8 +70,9 @@ end)
 Changes
 =
 You might have to change the line 
-
-        if not deadBozo and not lastStand then
+```
+if not deadBozo and not lastStand then
+```
 You will need to change these two specific events
  ```
 deadBozo
