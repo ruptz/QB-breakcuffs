@@ -72,8 +72,12 @@ Changes
 You might have to change the line 
 
         if not deadBozo and not lastStand then
-
-depending on what scripts you use for when players die
+You will need to change the 
+ ```
+deadBozo
+laststand
+```
+depending on what scripts you use for when a player dies
 
 Minigame
 =
