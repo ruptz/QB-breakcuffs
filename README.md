@@ -106,7 +106,7 @@ end, 1, 5) -- NumberOfCircles, MS
 
 The mini game used for the change is https://github.com/trclassic92/CircleMinigame
 
-What code should look like now
+What your code should look like now
 =
 ```
 RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
