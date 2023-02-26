@@ -26,13 +26,13 @@ RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
     local deadBozo = QBCore.Functions.GetPlayerData().metadata["isdead"]
     local ped = PlayerPedId()
     if not isHandcuffed then
-        isHandcuffed = false -- May need to set this to true or false
-        TriggerServerEvent("police:server:SetHandcuffStatus", false) -- May need to set this to true or false
+        isHandcuffed = false
+        TriggerServerEvent("police:server:SetHandcuffStatus", false)
         ClearPedTasksImmediately(ped)
-        if GetSelectedPedWeapon(ped) ~= WEAPON_UNARMED then
-            SetCurrentPedWeapon(ped, WEAPON_UNARMED, true)
+        if GetSelectedPedWeapon(ped) ~= `WEAPON_UNARMED` then
+            SetCurrentPedWeapon(ped, `WEAPON_UNARMED`, true)
         end
-        if isSoftcuff then
+        if not isSoftcuff then
             cuffType = 16
             GetCuffedAnimation(playerId)
             QBCore.Functions.Notify(Lang:t("info.cuff"), 'primary')
@@ -41,31 +41,31 @@ RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
             GetCuffedAnimation(playerId)
             QBCore.Functions.Notify(Lang:t("info.cuffed_walk"), 'primary')
         end
-        if not deadBozo and not lastStand then -- May need to change this
-        local seconds = math.random(7,10)
-        local circles = math.random(2,5)
-        local success = exports['ps-ui']:Circle(function(success)
-            if success then
-                TriggerServerEvent("InteractSound_SV:PlayOnSource", "Uncuff", 0.2)
-                QBCore.Functions.Notify("You slipped out", "success")
-            else
-                TriggerServerEvent("police:server:SetHandcuffStatus", true) -- May need to set this to true or false
-                isHandcuffed = true -- May need to set this to true or false
-                ClearPedTasksImmediately(ped)
-            end
-        end, 1, 5) -- NumberOfCircles, MS
-    end
-    else
-        isHandcuffed = false
-        isEscorted = false
-        TriggerEvent('hospital:client:isEscorted', isEscorted)
-        DetachEntity(ped, true, false)
-        TriggerServerEvent("police:server:SetHandcuffStatus", false)
-        ClearPedTasksImmediately(ped)
-        TriggerServerEvent("InteractSound_SV:PlayOnSource", "Uncuff", 0.2)
-        QBCore.Functions.Notify(Lang:t("success.uncuffed"),"success")
-    end
-end)
+        if not deadBozo and not lastStand then
+            local seconds = math.random(7,10)
+            local circles = math.random(2,5)
+            local success = exports['ps-ui']:Circle(function(success)
+                if success then
+                    TriggerServerEvent("InteractSound_SV:PlayOnSource", "Uncuff", 0.2)
+                    QBCore.Functions.Notify("You slipped out", "success")
+                else
+                    TriggerServerEvent("police:server:SetHandcuffStatus", true)
+                    isHandcuffed = true
+                    ClearPedTasksImmediately(ped)
+                end
+            end, 1, 5) -- NumberOfCircles, MS
+        end
+        else
+            isHandcuffed = false
+            isEscorted = false
+            TriggerEvent('hospital:client:isEscorted', isEscorted)
+            DetachEntity(ped, true, false)
+            TriggerServerEvent("police:server:SetHandcuffStatus", false)
+            ClearPedTasksImmediately(ped)
+            TriggerServerEvent("InteractSound_SV:PlayOnSource", "Uncuff", 0.2)
+            QBCore.Functions.Notify(Lang:t("success.uncuffed"),"success")
+        end
+    end)
 ```
 Changes
 =
